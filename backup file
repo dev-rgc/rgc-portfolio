@@ -1,0 +1,57 @@
+/* import { TiThMenu } from "react-icons/ti";
+import { IoClose } from "react-icons/io5";
+import { useState } from "react"; */
+
+/* export default function Navigation() {
+  const [isNavShow, setNavShow] = useState(false);
+  const navLinks = document.querySelector(".nav-links");
+
+  function handleNav() {
+    setNavShow(!isNavShow);
+    navLinks?.classList.toggle("top-[9%]");
+  }
+
+  return (
+    <nav className="flex justify-center items-center w-[92%] mx-auto border-dashed border-2 border-white ">
+      
+
+      <div className="nav-links duration-500 md:static absolute bg-transparent md:bg-white md:min-h-fit min-h-[60vh] left-0 top-[-100%] md:w-auto  w-full flex items-center px-5">
+        <ul className="flex md:flex-row md:items-center md:gap-[4vw] gap-8 p-0 m-0 border-dashed border-2 border-white">
+          <li>
+            <a className="hover:text-gray-500" href="#">
+              HOME
+            </a>
+          </li>
+          <li>
+            <a className="hover:text-gray-500" href="#">
+              ABOUT
+            </a>
+          </li>
+          <li>
+            <a className="hover:text-gray-500" href="#">
+              PROJECTS
+            </a>
+          </li>
+          <li>
+            <a className="hover:text-gray-500" href="#">
+              CONTACTS
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div className="flex items-center gap-6">
+        {isNavShow ? (
+          <IoClose
+            onClick={handleNav}
+            className=" cursor-pointer text-[#3a86ff]"
+          />
+        ) : (
+          <TiThMenu
+            onClick={handleNav}
+            className="md:hidden cursor-pointer text-[#3a86ff]"
+          />
+        )}
+      </div>
+    </nav>
+  );
+} */
