@@ -1,38 +1,112 @@
-.App {
-  text-align: center;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+@layer base {
+  * {
+    margin: 0;
+    padding: 0;
+    /* font-family: Arial, Helvetica, sans-serif; */
+  }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  body {
+    font-family: "Ubuntu";
+    background: #0b1118;
+  }
+
+  html,
+  body,
+  div#root,
+  div.app {
+    height: 100%;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@layer components {
+  .selected {
+    @apply text-white font-bold;
+  }
+
+  .navlink {
+    @apply hover:text-white;
+  }
+
+  #app > div {
+    height: 100%;
+  }
+
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  .hide-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Hide scrollbar for IE, Edge, and Firefox */
+  .hide-scrollbar {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
 }
 
-.App-link {
-  color: #61dafb;
+/* APP COMPONENT */
+.appBody {
+  @apply flex flex-col justify-center items-center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.appMain {
+  @apply flex-grow my-3 text-[#adb5bd];
+}
+.appFooter {
+  @apply flex justify-evenly items-center
+   w-full h-14 p-0 m-0 bottom-0
+  border-solid border-t-2 border-[#3a86ff] 
+  text-white;
+}
+
+/* MAIN COMPONENT */
+.home {
+  @apply flex flex-col justify-center items-center
+  py-3 text-center 
+  border-double border-4 border-[#3a86ff] rounded-lg shadow-md shadow-black;
+}
+
+.carousel {
+  @apply size-[400px] p-0 m-0;
+}
+
+.myCard {
+  @apply border-double border-4 border-[#3a86ff] rounded-lg p-3 shadow-md shadow-black;
+}
+.myCard > h3 {
+  @apply text-[#f8f9fa];
+}
+.myCard ul {
+  @apply flex flex-row flex-wrap justify-start gap-3 m-0 p-0;
+}
+.myCard ul > li {
+  @apply bg-[#3a86ff] bg-opacity-40 rounded-full px-4 m-0 text-xs text-[#3a86ff];
+}
+
+.main-nav {
+  @apply flex justify-between items-center w-[92%] mx-auto
+  text-white
+  border-dashed border-2 border-white;
+}
+.nav-banner > a {
+  @apply no-underline
+  text-white
+  hover:text-[#0F4D74];
+}
+
+.main-nav-menu {
+  @apply md:static absolute bg-white md:min-h-fit min-h-[60vh] left-0 top-[9%] md:w-auto w-full flex items-center p-5;
+}
+.main-nav-menu > ul {
+  @apply flex md:flex-row flex-col md:items-center items-center md:gap-[4vw] gap-8
+  /* responsive */
+  
+  border-dashed border-2 border-red-500 p-0 m-0;
+}
+.main-nav-menu > ul > li {
+  @apply border-dashed border-2 border-red-500
+  hover:text-white;
 }
