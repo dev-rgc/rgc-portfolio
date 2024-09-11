@@ -1,0 +1,26 @@
+name: Code Review Approval
+
+on:
+  pull_request:
+    types: [opened, reopened, synchronize]
+
+jobs:
+  check_plus_one:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Check for +1 comment
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const comments = await github.issues.listComments({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.payload.pull_request.number,
+            });
+
+            const hasPlusOne = comments.data.some(comment => comment.body.includes('+1'));
+
+            if (!hasPlusOne) {
+              core.setFailed('A "+1" comment is required for merging.');
+            }
