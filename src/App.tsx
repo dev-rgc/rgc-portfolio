@@ -14,7 +14,7 @@ import Projects from "./pages/Projects";
 function App() {
   return (
     <>
-      <div className="container grid grid-cols-5  auto-rows-auto h-screen p-0 border-dashed border-2 border-red-600">
+      <div className="container grid grid-cols-5  auto-rows-auto h-screen p-0 ">
         <div className="leftPane  grid grid-rows-3 bg-gray-900">
           <div className=" grid justify-items-center content-center text-white shadow-lg">
             <Profile />
@@ -29,9 +29,9 @@ function App() {
           </div>
         </div>
 
-        <div className="rightPane col-span-4 grid grid-col-3 border-dashed border-1 border-white ">
+        <div className="rightPane col-span-4 grid grid-col-3  ">
           <Header />
-          <main className="appMain container border-dashed border-2 border-violet-600">
+          <main className="appMain container ">
             <Routes>
               <Route path="/" element={<Home />}></Route>
               <Route path="/about" element={<About />}></Route>
