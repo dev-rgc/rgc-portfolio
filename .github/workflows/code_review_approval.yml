@@ -13,14 +13,24 @@ jobs:
         uses: actions/github-script@v6
         with:
           script: |
-            const comments = await github.issues.listComments({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              issue_number: context.payload.pull_request.number,
-            });
+            const core = require('@actions/core');
+            const github = require('@actions/github');
 
-            const hasPlusOne = comments.data.some(comment => comment.body.includes('+1'));
+            const { owner, repo } = context.repo;
+            const { number } = context.payload.pull_request;
 
-            if (!hasPlusOne) {
-              core.setFailed('A "+1" comment is required for merging.');
+            try {
+              const comments = await github.issues.listComments({
+                owner,
+                repo,
+                issue_number: number,
+              });
+
+              const hasPlusOne = comments.data.some(comment => comment.body.includes('+1'));
+
+              if (!hasPlusOne) {
+                core.setFailed('A "+1" comment is required for merging.');
+              }
+            } catch (error) {
+              core.setFailed(`Error fetching comments: ${error.message}`);
             }
