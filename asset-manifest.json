@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/rgc-portfolio/static/css/main.805d8741.css",
+    "main.js": "/rgc-portfolio/static/js/main.94fde63b.js",
+    "static/js/453.4417a39b.chunk.js": "/rgc-portfolio/static/js/453.4417a39b.chunk.js",
+    "static/media/RGC-logo.png": "/rgc-portfolio/static/media/RGC-logo.0c0cb1de99ee070dd37c.png",
+    "static/media/dp.jpeg": "/rgc-portfolio/static/media/dp.b4c7b136a368d57024e2.jpeg",
+    "index.html": "/rgc-portfolio/index.html",
+    "main.805d8741.css.map": "/rgc-portfolio/static/css/main.805d8741.css.map",
+    "main.94fde63b.js.map": "/rgc-portfolio/static/js/main.94fde63b.js.map",
+    "453.4417a39b.chunk.js.map": "/rgc-portfolio/static/js/453.4417a39b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.805d8741.css",
+    "static/js/main.94fde63b.js"
+  ]
+}
