@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/rgc-portfolio/static/css/main.41f42f66.css",
-    "main.js": "/rgc-portfolio/static/js/main.b92fcc5e.js",
+    "main.css": "/rgc-portfolio/static/css/main.69e2e881.css",
+    "main.js": "/rgc-portfolio/static/js/main.2721ac22.js",
     "static/js/453.4417a39b.chunk.js": "/rgc-portfolio/static/js/453.4417a39b.chunk.js",
     "static/media/selfme.jpg": "/rgc-portfolio/static/media/selfme.815f9b655cea5431abb6.jpg",
     "static/media/4.png": "/rgc-portfolio/static/media/4.c35d0820430d7b9db40c.png",
@@ -10,12 +10,12 @@
     "static/media/2.png": "/rgc-portfolio/static/media/2.f23d49b136ec7b77f90a.png",
     "static/media/RGC-logo.png": "/rgc-portfolio/static/media/RGC-logo.0c0cb1de99ee070dd37c.png",
     "index.html": "/rgc-portfolio/index.html",
-    "main.41f42f66.css.map": "/rgc-portfolio/static/css/main.41f42f66.css.map",
-    "main.b92fcc5e.js.map": "/rgc-portfolio/static/js/main.b92fcc5e.js.map",
+    "main.69e2e881.css.map": "/rgc-portfolio/static/css/main.69e2e881.css.map",
+    "main.2721ac22.js.map": "/rgc-portfolio/static/js/main.2721ac22.js.map",
     "453.4417a39b.chunk.js.map": "/rgc-portfolio/static/js/453.4417a39b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.41f42f66.css",
-    "static/js/main.b92fcc5e.js"
+    "static/css/main.69e2e881.css",
+    "static/js/main.2721ac22.js"
   ]
 }
