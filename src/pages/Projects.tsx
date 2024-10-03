@@ -3,29 +3,37 @@ import { motion } from "framer-motion";
 export default function Projects() {
   return (
     <motion.div
-      className="container myCard flex justify-center gap-2 flex-wrap mt-20 mb-20"
+      className="flex flex-row flex-wrap gap-2  w-full"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
     >
-      <motion.div
-        className="carousel rounded-lg"
-        initial={{ width: 0, opacity: 0 }}
-        animate={{ width: "100%", opacity: 1 }}
-        exit={{
-          x: window.innerWidth,
-          opacity: 0,
-          transition: { duration: 0.1 },
-        }}
-      >
-        <Carousel />
-      </motion.div>
-      <div className="carousel">
+      <div className="w-1/2">
         <Carousel />
       </div>
-      <div className="carousel">
-        <Carousel />
+      <div className="w-1/3 flex flex-col  ml-2 mt-2">
+        <p>
+          <span className="text-blue-500">NAME:</span> RGC-GUNPLA
+        </p>
+        <p>
+          <span className="text-blue-500">STATUS:</span>
+          <span className="text-red-400"> DOWN</span>
+        </p>
+        <p>
+          <span className="text-blue-500">DESCRIPTION:</span> MY PERSONAL
+          E-COMERCE
+        </p>
+        <p>
+          <span className="text-blue-500">PROGRESS:</span> 40%
+        </p>
+        <p>
+          <span className="text-blue-500">TECHNOLOGIES:</span> VITE, REACT,
+          TYPESCRIPT, TAILWIND, JAVA SPRING, MONDODB, POSTGRESQL
+        </p>
       </div>
+      {/* <div className="w-1/2">
+        <Carousel />
+      </div> */}
     </motion.div>
   );
 }

@@ -52,9 +52,6 @@
   @apply flex flex-col justify-center items-center;
 }
 
-.appMain {
-  @apply flex-grow my-3 text-[#adb5bd];
-}
 .appFooter {
   @apply flex justify-evenly items-center
    w-full h-14 p-0 m-0 bottom-0
@@ -63,32 +60,6 @@
 }
 
 /* MAIN COMPONENT */
-.home {
-  @apply flex flex-col justify-center items-center
-  py-3 text-center 
-  border-double border-4 border-[#3a86ff] rounded-lg shadow-md shadow-black;
-}
-
-.carousel {
-  @apply size-[400px] p-0 m-0;
-}
-
-.myCard {
-  @apply border-double border-4 border-[#3a86ff] rounded-lg p-3 my-3 shadow-md shadow-black;
-}
-.myCard h3 {
-  @apply text-[#f8f9fa];
-}
-.myCard p {
-  @apply text-sm py-2;
-}
-.myCard ul {
-  @apply flex flex-row flex-wrap justify-start gap-2 m-0 p-0;
-}
-.myCard li {
-  @apply bg-[#3a86ff] bg-opacity-40 rounded-full px-4 m-0 text-xs text-[#3a86ff];
-}
-
 .main-nav {
   @apply flex justify-between items-center w-[92%] mx-auto
   text-white

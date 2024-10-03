@@ -17,7 +17,7 @@ const activeStyleCallback = ({ isActive }: { isActive: Boolean }) =>
 const NavLinks = () => {
   return (
     <>
-      <NavLink to="/" className={activeStyleCallback}>
+      <NavLink to="/rgc-portfolio" className={activeStyleCallback}>
         Home
       </NavLink>
       <NavLink to="/about" className={activeStyleCallback}>

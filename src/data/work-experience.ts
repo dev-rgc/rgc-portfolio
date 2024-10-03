@@ -3,8 +3,14 @@ export const workExperience = [
     id: 1,
     company: "OpsWerks",
     "job-title": "SRE",
-    description:
-      "Design, develop, and maintain complex web applications using modern technologies like React, Node.js, and MongoDB.",
+    description: [
+      "QA Support: Assisting QA testers and developers with tasks related to Data Services onboarding.",
+      "Issue Resolution: Identifying and resolving non-production issues related to Data Services.",
+      "Team Coordination: Directing issues to the appropriate teams for resolution.",
+      "System Maintenance: Patching non-production and production hosts using an internal tool.",
+      "Monitoring: Tracking the health of services using internal tools like OpsCenter and Grafana.",
+      "Analytics: Creating Splunk queries for dashboards and alerts.",
+    ],
     skills: [
       "Git",
       "Github",
@@ -32,8 +38,9 @@ export const workExperience = [
     id: 2,
     company: "OpsWerks",
     "job-title": "Internship",
-    description:
+    description: [
       "Analyze large datasets to extract insights and make data-driven decisions using tools like Python, R, and SQL.",
+    ],
     skills: [
       "Linux",
       "VMware",
@@ -67,8 +74,9 @@ export const workExperience = [
     id: 3,
     company: "MakeApp",
     "job-title": "Software Engineer",
-    description:
+    description: [
       "Create visually appealing and user-friendly interfaces for digital products using design tools like Figma and Adobe XD.",
+    ],
     skills: [
       "HTML",
       "CSS",
@@ -89,16 +97,18 @@ export const workExperience = [
     id: 4,
     company: "MakeApp",
     "job-title": "Internship",
-    description:
+    description: [
       "Manage and automate the deployment and infrastructure of applications using tools like Docker, Kubernetes, and AWS.",
+    ],
     skills: ["HTML", "CSS", "JS", "PHP"],
   },
   {
     id: 5,
     company: "Ayala Theater Management Inc",
     "job-title": "Technical Assistant",
-    description:
+    description: [
       "Manage and automate the deployment and infrastructure of applications using tools like Docker, Kubernetes, and AWS.",
+    ],
     skills: [
       "PC Troubleshooting",
       "HTML",
