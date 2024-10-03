@@ -12,7 +12,7 @@ export default function About() {
         animate={{ opacity: 1 }}
         exit={{ opacity: 0, transition: { duration: 0.1 } }}
       >
-        <div className="flex flex-col gap-2  p-3 text-sm text-[#adb5bd] shadow-md shadow-black">
+        <div className="flex flex-col gap-2  p-3 text-sm text-[#adb5bd] ">
           <p className="">
             I am a former SRE (Site Reliability Engineer) for a Cloud
             Engineering Team, but before that, I started as an intern. In my

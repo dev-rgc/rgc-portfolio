@@ -8,7 +8,7 @@ export default function Projects() {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
     >
-      <div className="w-1/2">
+      <div className="w-1/2 rounded-lg overflow-hidden">
         <Carousel />
       </div>
       <div className="w-1/3 flex flex-col  ml-2 mt-2">
@@ -28,7 +28,7 @@ export default function Projects() {
         </p>
         <p>
           <span className="text-blue-500">TECHNOLOGIES:</span> VITE, REACT,
-          TYPESCRIPT, TAILWIND, JAVA SPRING, MONDODB, POSTGRESQL
+          TYPESCRIPT, TAILWIND, JAVA SPRING, MONGODB, MYSQL
         </p>
       </div>
       {/* <div className="w-1/2">

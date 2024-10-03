@@ -4,8 +4,8 @@ import Me from "../assets/images/profile/selfme.jpg";
 export default function Home() {
   return (
     <motion.div
-      className="border-double border-4 border-[#3a86ff] rounded-lg w-full p-5
-      shadow-md shadow-white text-center
+      className="w-full p-5
+       text-center
       flex flex-col items-center justify-center"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
@@ -24,7 +24,7 @@ export default function Home() {
         Particularly interested in back-end development, eager to learn and grow
         in a dynamic environment.
       </p>
-      <div className="flex flex-row justify-center gap-2 mt-4">
+      <div className="flex flex-row justify-center gap-4 mt-4">
         <p>GitHub: github.com/riogarrell</p>
         <p>LinkedIn: linkedin.com/in/riogarrell</p>
         <p>Gmail: riogarrell@gmail.com</p>

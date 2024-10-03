@@ -14,10 +14,10 @@ import Projects from "./pages/Projects";
 function App() {
   return (
     <>
-      <div className="h-screen border-2 border-dashed border-white p-3 flex flex-col overflow-hidden">
-        <div className="container  mx-auto">
-          <Header />
-          <main className="mt-3 flex items-center justify-center text-[#adb5bd]">
+      <div className="h-screen p-3 flex flex-col overflow-hidden">
+        <Header />
+        <div className="container h-screen flex items-center">
+          <main className="text-[#adb5bd]">
             <Routes>
               <Route path="/rgc-portfolio" element={<Home />}></Route>
               <Route path="/about" element={<About />}></Route>

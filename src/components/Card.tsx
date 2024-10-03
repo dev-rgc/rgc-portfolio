@@ -44,7 +44,7 @@ const Card = ({ id, company, title, desc, skills }: CardProps) => {
   return (
     <div
       key={id}
-      className="border-double border-4 border-[#3a86ff] rounded-lg p-3 my-3 shadow-md shadow-black mr-4"
+      className="border-double border-4 border-[#3a86ff] rounded-lg p-3 mb-3 mr-4 shadow-md shadow-black "
     >
       <h3 className="text-[#f8f9fa]">{title}</h3>
       <div className="my-3">
