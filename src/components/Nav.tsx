@@ -2,12 +2,6 @@ import { NavLink } from "react-router-dom";
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 
-import {
-  mobileNavContainerVariant,
-  mobileNavListVariant,
-  mobileNavExitProps,
-} from "../data/animationConfig";
-
 /* LINK BEHAVIOR | ACTIVE LINKS */
 const activeClassName = "selected navlink";
 const activeStyleCallback = ({ isActive }: { isActive: Boolean }) =>
@@ -37,11 +31,14 @@ const Nav = () => {
     setIsOpen(!isOpen);
   };
 
+  console.log(isOpen);
+
   return (
     <>
+      {/*  Not Open */}
       {!isOpen ? (
-        <nav className="flex justify-end w-1/3">
-          <div className="hidden w-full justify-between md:flex ">
+        <nav className="flex gap-2">
+          <div className="hidden md:flex gap-5">
             <NavLinks />
           </div>
           <div className="md:hidden">
@@ -49,18 +46,21 @@ const Nav = () => {
           </div>
         </nav>
       ) : (
-        <nav className="flex justify-end w-1/3">
-          <div className="">
+        <nav className="flex gap-2">
+          <div className="flex gap-4">
+            <NavLinks />
+          </div>
+          <div>
             <button onClick={toggleNavbar}>{isOpen ? <X /> : <Menu />}</button>
           </div>
         </nav>
       )}
-
-      {isOpen && (
+      {/*  When Open  place the menu below and  in column */}
+      {/* {isOpen && (
         <div className="flex basis-full flex-col items-start pl-3 mb-3">
           <NavLinks />
         </div>
-      )}
+      )} */}
     </>
   );
 };

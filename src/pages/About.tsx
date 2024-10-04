@@ -14,43 +14,31 @@ export default function About() {
       >
         <div className="flex flex-col gap-2  p-3 text-sm text-[#adb5bd] ">
           <p className="">
-            I am a former SRE (Site Reliability Engineer) for a Cloud
-            Engineering Team, but before that, I started as an intern. In my
-            experience, I encountered many unfamiliar technologies, and it was a
-            very fast-paced environment (well, because it’s one of the biggest
-            companies in Silicon Valley).
+            I'm a former Site Reliability Engineer for a Cloud Engineering Team,
+            having previously worked as an intern. My experience in this
+            fast-paced environment at a major tech company exposed me to many
+            unfamiliar technologies. While stepping outside my comfort zone was
+            challenging, it also provided valuable learning opportunities. Prior
+            to this role, I worked in IT technical support and software
+            engineering, making my transition to SRE a significant shift.
           </p>
           <p>
-            Working outside my comfort zone was very challenging, but the upside
-            was that I learned a lot of new things. Why do I say "outside my
-            comfort zone"? Before this role, I worked in I.T. technical support
-            and then moved into Software Engineering, so suddenly jumping to SRE
-            was completely new to me. It was the first time I had even heard of
-            it—lol.
+            However, I realized that I missed the core aspects of software
+            development: writing code, troubleshooting, and the satisfaction of
+            overcoming technical challenges. To focus on these areas, I've been
+            diligently working through a DIY web development bootcamp focused on
+            the MERN stack. While I particularly enjoy building the backend of
+            applications, I'm also capable of creating user interfaces.
           </p>
           <p>
-            However, as time went on, I began to feel like something was missing
-            in my life. I missed writing code, struggling with bugs, and the
-            rewarding feeling when you finally solve a problem—it’s like
-            unlocking a new achievement—lol.
-          </p>
-          <p>
-            Moving forward, my main focus these days is building web
-            applications. I’ve been diligently working through my DIY web
-            development bootcamp (focused on the MERN stack). I mostly enjoy
-            creating the backbone of an app rather than the user interfaces, but
-            I’m capable of doing both. When I’m not at the computer, I’m usually
-            playing mobile MOBA and PC open-world games, hanging out with my
-            wife and daughter, or watching anime and movies.
-          </p>
-          <p>
-            I’m looking forward to the opportunity to work with your team. Thank
-            you, and God bless!
+            When not coding, I enjoy gaming, spending time with family, and
+            watching anime. I'm eager to contribute my skills and knowledge to
+            your team.
           </p>
         </div>
 
         {/* SKILLS */}
-        <div className="h-[35rem] overflow-auto mt-4">
+        <div className="h-96 overflow-auto mt-3">
           {Dexp.map((data) => (
             <Card
               id={data.id}

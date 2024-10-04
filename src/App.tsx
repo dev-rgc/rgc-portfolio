@@ -14,17 +14,18 @@ import Projects from "./pages/Projects";
 function App() {
   return (
     <>
-      <div className="h-screen p-3 flex flex-col overflow-hidden">
+      <div className="container min-h-screen p-3 flex flex-col">
         <Header />
-        <div className="container h-screen flex items-center">
-          <main className="text-[#adb5bd]">
-            <Routes>
-              <Route path="/rgc-portfolio" element={<Home />}></Route>
-              <Route path="/about" element={<About />}></Route>
-              <Route path="/projects" element={<Projects />}></Route>
-            </Routes>
-          </main>
-        </div>
+
+        <main className="my-auto text-[#adb5bd] p-2">
+          <Routes>
+            <Route path="/rgc-portfolio" element={<Home />}></Route>
+            <Route path="/about" element={<About />}></Route>
+            <Route path="/projects" element={<Projects />}></Route>
+          </Routes>
+        </main>
+
+        <Footer />
       </div>
     </>
   );
