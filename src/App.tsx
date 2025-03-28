@@ -17,7 +17,7 @@ function App() {
       <div className="container min-h-screen p-3 flex flex-col">
         <Header />
 
-        <main className="my-auto text-[#adb5bd] p-2">
+        <main className="my-auto mx-auto text-[#adb5bd] p-2">
           <Routes>
             <Route path="/rgc-portfolio" element={<Home />}></Route>
             <Route path="/about" element={<About />}></Route>

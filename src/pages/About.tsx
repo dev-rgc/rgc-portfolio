@@ -38,7 +38,7 @@ export default function About() {
         </div>
 
         {/* SKILLS */}
-        <div className="h-96 overflow-auto mt-3">
+        <div className="h-screen overflow-auto mt-3 mx-0">
           {Dexp.map((data) => (
             <Card
               id={data.id}
