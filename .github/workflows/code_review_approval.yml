@@ -26,10 +26,10 @@ jobs:
                 issue_number: number,
               });
 
-              const hasPlusOne = comments.data.some(comment => comment.body.includes('+1'));
+              const hasPlusOne = comments.data.some(comment => comment.body.toLowerCase().includes('+1'));
 
               if (!hasPlusOne) {
-                core.setFailed('A "+1" comment is required for merging.');
+                core.setFailed('A "+1" comment is required for merging. Please ask a reviewer to add an approval comment.');
               }
             } catch (error) {
               core.setFailed(`Error fetching comments: ${error.message}`);
