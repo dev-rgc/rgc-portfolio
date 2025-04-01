@@ -9,13 +9,13 @@ export default function Footer() {
   border-solid border-t-2 border-[#3a86ff] 
   text-[#3a86ff] "
     >
-      <a href="github.com/riogarrell" target="_blank">
+      <a href="https://github.com/riogarrell" target="_blank">
         <FaGithub />
       </a>
       <a href="https://www.linkedin.com/in/riogarrell" target="_blank">
         <FaLinkedin />
       </a>
-      <a href="riogarrell@gmail.com" target="_blank">
+      <a href="mailto:your.riogarrell@gmail.com" target="_blank">
         <SiGmail />
       </a>
     </footer>
