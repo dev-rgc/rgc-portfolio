@@ -12,7 +12,7 @@ export default function Footer() {
       <a href="github.com/riogarrell" target="_blank">
         <FaGithub />
       </a>
-      <a href="linkedin.com/in/riogarrell" target="_blank">
+      <a href="https://www.linkedin.com/in/riogarrell" target="_blank">
         <FaLinkedin />
       </a>
       <a href="riogarrell@gmail.com" target="_blank">
