@@ -14,7 +14,7 @@ export default function Home() {
       {/* <Profile /> */}
       <img
         src={Me}
-        className="rounded-full size-52 max-w-full object-cover align-middle bg-no-repeat bg-cover"
+        className=" size-52 max-w-full object-cover rounded-full"
       />
       <p className="mt-3">Software Engineer</p>
       <p className="text-2xl text-[#f8f9fa] font-bold mt-4 p-0">
