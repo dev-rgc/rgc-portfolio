@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/rgc-portfolio/static/css/main.78bd5082.css",
-    "main.js": "/rgc-portfolio/static/js/main.ba8542b0.js",
+    "main.js": "/rgc-portfolio/static/js/main.5457fc41.js",
     "static/js/453.4417a39b.chunk.js": "/rgc-portfolio/static/js/453.4417a39b.chunk.js",
     "static/media/4.png": "/rgc-portfolio/static/media/4.c35d0820430d7b9db40c.png",
     "static/media/1.png": "/rgc-portfolio/static/media/1.8b5e51473fe285e40e4a.png",
     "static/media/3.png": "/rgc-portfolio/static/media/3.3003e18ae8e685f812c0.png",
     "static/media/2.png": "/rgc-portfolio/static/media/2.f23d49b136ec7b77f90a.png",
-    "static/media/selfme.jpg": "/rgc-portfolio/static/media/selfme.791af094eb93e040d772.jpg",
+    "static/media/enhance-removebg-preview.png": "/rgc-portfolio/static/media/enhance-removebg-preview.99864e91d97fe1ab35e8.png",
     "static/media/RGC-logo.png": "/rgc-portfolio/static/media/RGC-logo.0c0cb1de99ee070dd37c.png",
     "index.html": "/rgc-portfolio/index.html",
     "main.78bd5082.css.map": "/rgc-portfolio/static/css/main.78bd5082.css.map",
-    "main.ba8542b0.js.map": "/rgc-portfolio/static/js/main.ba8542b0.js.map",
+    "main.5457fc41.js.map": "/rgc-portfolio/static/js/main.5457fc41.js.map",
     "453.4417a39b.chunk.js.map": "/rgc-portfolio/static/js/453.4417a39b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.78bd5082.css",
-    "static/js/main.ba8542b0.js"
+    "static/js/main.5457fc41.js"
   ]
 }
