@@ -29,7 +29,7 @@ export default function Projects() {
           </p>
           <p>
             <span className="text-blue-500">TECHNOLOGIES:</span> VITE, REACT,
-            TYPESCRIPT, TAILWIND, JAVA SPRING, MONGODB, MYSQL
+            TYPESCRIPT, TAILWIND, SPRING, SPRING BOOT, MONGODB, MYSQL
           </p>
         </div>
       </div>
