@@ -1,6 +1,7 @@
 import Profile from "../components/Profile";
 import { motion } from "framer-motion";
-import Me from "../assets/images/profile/enhance-removebg-preview.png";
+//import Me from "../assets/images/profile/enhance-removebg-preview.png";
+import Me from "../assets/images/profile/selfme.png";
 export default function Home() {
   return (
     <motion.div
