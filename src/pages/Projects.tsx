@@ -18,18 +18,18 @@ export default function Projects() {
           </p>
           <p>
             <span className="text-blue-500">STATUS:</span>
-            <span className="text-red-400"> DOWN</span>
+            <span className="text-red-400"> ON-GOING</span>
           </p>
           <p>
             <span className="text-blue-500">DESCRIPTION:</span> MY PERSONAL
-            E-COMERCE
+            E-COMMERCE
           </p>
           <p>
             <span className="text-blue-500">PROGRESS:</span> 40%
           </p>
           <p>
-            <span className="text-blue-500">TECHNOLOGIES:</span> VITE, REACT,
-            TYPESCRIPT, TAILWIND, SPRING, SPRING BOOT, MONGODB, MYSQL
+            <span className="text-blue-500">TECH STACKS:</span> VITE, REACT,
+            TYPESCRIPT, TAILWIND, SPRING BOOT, MONGODB
           </p>
         </div>
       </div>

@@ -23,12 +23,10 @@ export default function About() {
             engineering, making my transition to SRE a significant shift.
           </p>
           <p>
-            However, I realized that I missed the core aspects of software
-            development: writing code, troubleshooting, and the satisfaction of
-            overcoming technical challenges. To focus on these areas, I've been
-            diligently working through a DIY web development bootcamp focused on
-            the MERN stack. While I particularly enjoy building the backend of
-            applications, I'm also capable of creating user interfaces.
+            However, I realized that I had missed the core aspects of software development: writing code, troubleshooting,
+            and the satisfaction of overcoming technical challenges.To refocus on these areas, I have been diligently
+            working through a self-directed web development program. While I particularly enjoy building the backend of
+            applications, I am also capable of creating user interfaces.
           </p>
           <p>
             When not coding, I enjoy gaming, spending time with family, and
