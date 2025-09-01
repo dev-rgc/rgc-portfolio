@@ -1,6 +1,7 @@
 import { NavLink } from "react-router-dom";
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
+import Logo from "./Logo";
 
 /* LINK BEHAVIOR | ACTIVE LINKS */
 const activeClassName = "selected navlink";
@@ -34,34 +35,38 @@ const Nav = () => {
   console.log(isOpen);
 
   return (
-    <>
-      {/*  Not Open */}
-      {!isOpen ? (
-        <nav className="flex gap-2">
-          <div className="hidden md:flex gap-5">
-            <NavLinks />
-          </div>
-          <div className="md:hidden">
-            <button onClick={toggleNavbar}>{isOpen ? <X /> : <Menu />}</button>
-          </div>
-        </nav>
-      ) : (
-        <nav className="flex gap-2">
-          <div className="flex gap-4">
-            <NavLinks />
-          </div>
-          <div>
-            <button onClick={toggleNavbar}>{isOpen ? <X /> : <Menu />}</button>
-          </div>
-        </nav>
-      )}
-      {/*  When Open  place the menu below and  in column */}
-      {/* {isOpen && (
+  <nav className="flex gap-2 items-center justify-between w-full">
+    {!isOpen ? (
+      <>
+        <Logo />
+        <div className="hidden md:flex gap-5">
+          <NavLinks />
+        </div>
+        <div className="md:hidden">
+          <button onClick={toggleNavbar}>
+            {isOpen ? <X /> : <Menu />}
+          </button>
+        </div>
+      </>
+    ) : (
+      <>
+        <div className="flex gap-4">
+          <NavLinks />
+        </div>
+        <div>
+          <button onClick={toggleNavbar}>
+            {isOpen ? <X /> : <Menu />}
+          </button>
+        </div>
+      </>
+    )}
+  </nav>
+  /*  When Open  place the menu below and  in column */
+      /* {isOpen && (
         <div className="flex basis-full flex-col items-start pl-3 mb-3">
           <NavLinks />
         </div>
-      )} */}
-    </>
+      )} */
   );
 };
 

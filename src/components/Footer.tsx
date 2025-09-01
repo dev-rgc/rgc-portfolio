@@ -7,7 +7,7 @@ export default function Footer() {
       className="flex justify-evenly items-center
    w-full h-14 p-0 mt-auto bottom-0
   border-solid border-t-2 border-[#3a86ff] 
-  text-[#3a86ff] "
+  text-[#3a86ff]"
     >
       <a href="https://github.com/dev-rgc" target="_blank">
         <FaGithub />
@@ -18,6 +18,15 @@ export default function Footer() {
       <a href="mailto:your.riogarrell@gmail.com" target="_blank">
         <SiGmail />
       </a>
+      <a href="https://drive.google.com/uc?export=download&id=1o6TZU8jbh4GnXXXK4Oe7XM5DN7DbCqdR"
+      
+      target="_blank"
+      rel="noopener noreferrer"
+      className="px-4 py-1 bg-blue-600 text-[#f8f9fa] rounded-lg"
+      
+    >
+      Download My CV
+    </a>
     </footer>
   );
 }

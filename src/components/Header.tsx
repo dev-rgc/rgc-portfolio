@@ -8,7 +8,7 @@ export default function Header() {
   text-[#3a86ff]  backdrop-blur-lg  h-[4rem]
   border-4 border-double border-[#3a86ff] rounded-lg"
     >
-      <Logo />
+      {/* <Logo /> */}
       <Nav />
     </header>
   );

@@ -16,10 +16,10 @@ export default function Projects() {
           <p>
             <span className="text-blue-500">NAME:</span> RGC-GUNPLA
           </p>
-          <p>
+          {/* <p>
             <span className="text-blue-500">STATUS:</span>
             <span className="text-red-400"> ON-GOING</span>
-          </p>
+          </p> */}
           <p>
             <span className="text-blue-500">DESCRIPTION:</span> MY PERSONAL
             E-COMMERCE
