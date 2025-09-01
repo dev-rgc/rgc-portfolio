@@ -18,7 +18,7 @@ export default function Home() {
       />
       <p className="mt-3">Software Engineer</p>
       <p className="text-2xl text-[#f8f9fa] font-bold mt-4 p-0">
-        Hey, I'm Rio Garrell Conge, you can call me Rio/RG.
+        Hey, I'm Rio Garrell Conge, you can call me RG.
       </p>
       <p className="mt-2">
         Seeking to explore the field of software engineering, leveraging my
